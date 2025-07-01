@@ -4,7 +4,10 @@
   "compatibilityLevel": "JAVA_21",
   "mixins": [
     "ModMoveLeaveBedButtonMixin",
-    "ModKeepStatusbarInBedMixin"
+    "ModKeepStatusbarInBedMixin",
+    "ModClientMixin",
+    "ModClientPlayerEntityMixin",
+    "ModAbstractClientPlayerEntityMixin"
   ],
   "injectors": {
     "defaultRequire": 1

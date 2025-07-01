@@ -22,7 +22,7 @@ public class ModMoveLeaveBedButtonMixin {
 
                 // Usually the "Leave Bed" button text is "Leave Bed" (or localized) THIS ONLY WORKS IN ENGLISH FOR NOW
                 if (button.getMessage().getString().equals("Leave Bed")) {
-                    button.setY(100); // Move it higher, adjust '20' as needed
+                    button.setY(192); // Move it higher, adjust '20' as needed
                 }
             }
         }
